@@ -1,0 +1,18 @@
+/* components/search/search.wxss */
+
+.container{ position: fixed; left:0; top:0; width:100%; height:90rpx; z-index: 9999; overflow: hidden;}
+.containerFocus{ position: fixed; left:0; top:0; width:100%; height:100%; z-index: 9999; background:#ccc;}
+.search{ display: flex; align-items: center; margin:20rpx;}
+.search-text{ display: flex; align-items: center; flex:1; border:1px #b4b5b6 solid; border-radius: 10rpx; height:60rpx; background: white;}
+.search-text .iconsousuo1{ margin:0 10rpx;}
+.search-text input{ flex:1;}
+.search-cancel{  margin:0 10rpx; }
+
+.search-history{ display: flex; justify-content: space-between; margin:20rpx; margin-bottom: 30rpx;}
+.search-history-btn{ margin-bottom: 30rpx;}
+.search-history-btn text{ border:1px #b4b5b6 solid; padding:10rpx 20rpx; background:white; border-radius: 20rpx; margin:10rpx;}
+
+.searchList-item{ height:120rpx; border-bottom: 1px #b4b5b6 dashed; padding:10rpx; display: flex; align-items: center; justify-content: space-between;}
+.searchList-item view{ display: flex; align-items: center;}
+.searchList-item image{ width:100rpx; height:100rpx; border-radius: 50%;}
+

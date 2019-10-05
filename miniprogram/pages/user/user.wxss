@@ -1,0 +1,9 @@
+/* miniprogram/pages/user/user.wxss */
+.user-info{ height:150rpx; border:1px #b4b5b6 solid; border-left:none; 
+border-right:none;display:flex; align-items: center;}
+.user-info image{ width:100rpx; height:100rpx; border-radius: 50%; overflow: hidden;}
+.user-info text{ margin-left:10rpx;}
+.user-info button{ margin:0; margin-left:10rpx;}
+
+.user-list{ margin-top:40rpx;}
+.user-list-item{ height:50rpx; border-bottom: 1px #b4b5b6 dashed; padding:10rpx; display: flex; align-items: center; justify-content: space-between;}

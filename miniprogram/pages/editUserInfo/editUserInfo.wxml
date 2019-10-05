@@ -1,0 +1,39 @@
+<!--miniprogram/pages/editUserInfo/editUserInfo.wxml-->
+<view class="editUserInfo">
+  <navigator url="./head/head" open-type="navigate">
+    <view class="editUserInfo-list-item">
+      <text>修改头像</text>
+      <text class="iconfont iconarrowRight"></text>
+    </view>
+  </navigator>
+  <navigator url="./name/name" open-type="navigate">
+    <view class="editUserInfo-list-item">
+      <text>修改昵称</text>
+      <text class="iconfont iconarrowRight"></text>
+    </view>
+  </navigator>
+  <navigator url="./signature/signature" open-type="navigate">
+    <view class="editUserInfo-list-item">
+      <text>修改个性签名</text>
+      <text class="iconfont iconarrowRight"></text>
+    </view>
+  </navigator>
+  <navigator url="./location/location" open-type="navigate">
+    <view class="editUserInfo-list-item">
+      <text>共享位置</text>
+      <text class="iconfont iconarrowRight"></text>
+    </view>
+  </navigator>
+  <navigator url="./phone/phone" open-type="navigate">
+    <view class="editUserInfo-list-item">
+      <text>设置手机号 <text class="editUserInfo-list-tips">仅好友可见</text></text>
+      <text class="iconfont iconarrowRight"></text>
+    </view>
+  </navigator>
+  <navigator url="./weixin/weixin" open-type="navigate">
+    <view class="editUserInfo-list-item">
+      <text>设置微信号 <text class="editUserInfo-list-tips">仅好友可见</text></text>
+      <text class="iconfont iconarrowRight"></text>
+    </view>
+  </navigator>
+</view>
